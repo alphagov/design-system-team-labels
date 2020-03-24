@@ -216,14 +216,17 @@ module.exports = [
     labels: [
       {
         name: '🕔 days',
+        description: 'A few unknowns, but we roughly know what’s involved. We’d expect it to take less than a week to resolve. May be a good thing to pair on.',
         aliases: ['Effort: days']
       },
       {
         name: '🕔 hours',
+        description: 'A well understood issue which we expect to take less than a day to resolve. Could be something that community could be involved in (eg. first timer issues).',
         aliases: ['Effort: hours']
       },
       {
         name: '🕔 weeks',
+        description: 'This is complicated and will require a lot of effort from the team, taking more than a week to resolve. May need breaking down into smaller pieces of work.',
         aliases: ['Effort: weeks']
       }
     ]
