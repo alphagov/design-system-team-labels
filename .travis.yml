@@ -3,6 +3,11 @@ node_js: lts/*
 
 script: ./apply.sh
 
+env:
+  global:
+  # GITHUB_ACCESS_TOKEN
+  - secure: "UWwqZlVZ0jYItCWIlUsPkEfZf58WrseHXXzT4LUYpXGLnXlKEWlfp5pn8VhwwOGKFGVSghhWmASL8Pb2I1VGBByRtqJy+kN6vkSXqb5Xs/GJ8kvf4tgYh5LPpOBBkDFX2eMH1j/e5LgLGIvdS+WpY/LDPBN1dkx1ElIeRseZjrqUv/14lYoiqhAVe2iwEOaQRHYdZLvVF+TmpJdJUnFT8r0xuxbJtBMMLsos7953bjoWA2/Z24o2Zn6UX90IU7rcsmj0RZleV3hmG6efLwdRPWEL53ntpCpiTVGxao9AETOVA6xUyObpkzIiswb9hVCPYSakBkfTRbOAcRHHwyNB7+lDBIgwyTcpjzThzBOTKRpjBhDP320z8fsJm3EM+YUMOvmu2RI5rPrAELXHIvvJTcZ5f+zLU7sqvAm9+/p2Q+yEV9PRDDnlYJSVEXp3CYRl1PiwSX8us1qoqLxyQu8GTXWKQ2hhKXAnFybo6dlxbMJGlKQbrtNraJV8SLO5kfNOpRgPe4TL8rPneaDfRU/q7M9+Pi1KH/6mUDyqYjD1o/2H7LpMTp3wm/jE57n50y7NHjuBgqJRXvtNdAGytzGg5iWVEmw1Y0e5+dtl1GGYhpNnITvktQF3PXVcgDcnd8nJs14f3GThI0bbXjWQ5S66oDcb6M2gn0OmKEOwZUOzcQE="
+
 deploy:
   provider: script
   script: APPLY=true ./apply.sh
