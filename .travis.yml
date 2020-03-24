@@ -1,0 +1,10 @@
+language: node_js
+node_js: lts/*
+
+script: ./apply.sh
+
+deploy:
+  provider: script
+  script: APPLY=true ./apply.sh
+  on:
+    branch: master
