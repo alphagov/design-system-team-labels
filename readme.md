@@ -16,6 +16,12 @@ You can preview the labels by running:
 node preview.js
 ```
 
+When a pull request is created, you will be able to see a preview of the changes that will be made to each repository in the build log in Travis CI.
+
+Once the pull request has been merged to master, those changes will be applied.
+
+Labels that are not included in this config will not be affected. This also means that removing a label from the config will not remove it from any repositories.
+
 ## Updating repos
 
 The list of repositories to update is configured in apply.sh.
