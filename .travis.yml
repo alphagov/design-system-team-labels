@@ -10,6 +10,6 @@ env:
 
 deploy:
   provider: script
-  script: APPLY=true ./apply.sh
+  script: env APPLY=true ./apply.sh
   on:
     branch: master
