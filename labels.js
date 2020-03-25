@@ -11,19 +11,19 @@
 //   ...
 // ]
 
-module.exports = require ('./config.js').reduce((accumulator, group) => {
-    return accumulator.concat(group.labels.map(entry => {
-        if (typeof entry === 'string') {
-            return {
-                name: entry,
-                color: group.color
-            }
-        } else {
-            // Merge the object with the colour from the group, with the label
-            // colour taking precedence.
-            return Object.assign({
-                color: group.color
-            }, entry)
-        }
-    }))
-}, [])
+module.exports = require ('./config.js').flatMap(group => {
+  return group.labels.map(entry => {
+    if (typeof entry === 'string') {
+      return {
+        name: entry,
+        color: group.color
+      }
+    } else {
+      // Merge the object with the colour from the group, with the label
+      // colour taking precedence.
+      return Object.assign({
+        color: group.color
+      }, entry)
+    }
+  })
+})
