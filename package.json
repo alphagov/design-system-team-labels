@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "design-system-team-labels",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "github-label-sync": "^1.4.2",
+    "tinycolor2": "^1.4.1"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
