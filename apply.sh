@@ -1,5 +1,7 @@
 repos=(
   alphagov/design-system-team-internal
+  alphagov/govuk-design-system
+  alphagov/govuk-frontend
 )
 
 args=(
