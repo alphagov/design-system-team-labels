@@ -130,6 +130,10 @@ module.exports = [
         description: 'Help users to create accounts'
       },
       {
+        name: 'impact of an emergency',
+        description: 'Help users to understand the impact of an emergency on your service'
+      },
+      {
         name: 'validation errors',
         description: 'Help users to recover from validation errors'
       },
