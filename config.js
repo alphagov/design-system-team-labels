@@ -181,6 +181,7 @@ module.exports = [
     labels: [
       'accessibility',
       'customisation',
+      'font',
       'interoperability',
       'javascript',
       'sass / css',
