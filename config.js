@@ -37,6 +37,7 @@ module.exports = [
       'hint',
       'inset text',
       'label',
+      'notification banner',
       'panel',
       'phase banner',
       'radios',
