@@ -313,6 +313,10 @@ module.exports = [
         name: 'submitted by user',
         color: 'b1b4b6',
         aliases: ['submitted-by-user']
+      },
+      {
+        name: 'needs research',
+        color: '4c2c92'
       }
     ]
   }
