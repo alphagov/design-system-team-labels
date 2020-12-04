@@ -26,6 +26,7 @@ module.exports = [
       'button',
       'character count',
       'checkboxes',
+      'cookie banner',
       'date input',
       'details',
       'error message',
