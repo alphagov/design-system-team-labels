@@ -1,7 +1,7 @@
 language: node_js
 node_js: lts/*
 
-script: 
+script:
   - node validate.js
   - ./apply.sh
 
@@ -15,4 +15,4 @@ deploy:
   # For some reason, we have to explicitly call the script using bash when deploying
   script: env APPLY=true bash ./apply.sh
   on:
-    branch: master
+    branch: main
