@@ -76,8 +76,8 @@ module.exports = [
         description: 'Ask users for email addresses'
       },
       {
-        name: 'ethnic groups',
-        description: 'Ask users for ethnic groups'
+        name: 'equality information',
+        description: 'Ask users for equality information'
       },
       {
         name: 'gender or sex',
