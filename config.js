@@ -190,6 +190,7 @@ module.exports = [
       'nunjucks',
       'localisation',
       'performance',
+      'tech debt',
       'tooling',
     ]
   },
