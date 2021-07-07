@@ -274,10 +274,6 @@ module.exports = [
     group: 'Others',
     labels: [
       {
-        name: 'blocked',
-        color: '0b0c0c'
-      },
-      {
         name: 'breaking change',
         color: '5319e7',
         aliases: ['breaking-change']
