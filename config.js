@@ -178,6 +178,32 @@ module.exports = [
   },
 
   {
+    group: 'Themes',
+    labels: [
+      {
+        name: 'small story',
+        color: '0B0C0C'
+      },
+      {
+        name: 'technical enablement',
+        color: 'DA7F25'
+      },
+      {
+        name: 'refining team processes',
+        color: 'A15E8F'
+      },
+      {
+        name: 'building the community',
+        color: '5EA18E'
+      },
+      {
+        name: 'contribution or major iteration',
+        color: '6B8094'
+      }
+    ]
+  },
+
+  {
     group: 'Technical',
     color: '5bffd8',
     labels: [
@@ -273,10 +299,6 @@ module.exports = [
   {
     group: 'Others',
     labels: [
-      {
-        name: 'blocked',
-        color: '0b0c0c'
-      },
       {
         name: 'breaking change',
         color: '5319e7',
