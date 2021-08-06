@@ -16,7 +16,7 @@ You can preview the labels by running:
 node preview.js
 ```
 
-When a pull request is created, you will be able to see a preview of the changes that will be made to each repository in the build log in Travis CI.
+When a pull request is created, you will be able to see a preview of the changes that will be made to each repository as a comment on the PR, or in the GitHub Actions log.
 
 Once the pull request has been merged to `main`, those changes will be applied.
 

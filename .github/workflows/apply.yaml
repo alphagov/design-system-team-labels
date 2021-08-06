@@ -1,0 +1,30 @@
+name: Apply GitHub labels
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - id: nvm
+        run: echo "##[set-output name=NVMRC;]$(cat .nvmrc)"
+      - name: "Setup Node v${{ steps.nvm.outputs.NVMRC }}"
+        uses: actions/setup-node@v2
+        with:
+          node-version: "${{ steps.nvm.outputs.NVMRC }}"
+
+      - name: Install dependencies from npm
+        run: npm ci
+
+      - name: Sync GitHub labels
+        run: ./apply.sh
+        env:
+          APPLY: true
+          GITHUB_ACCESS_TOKEN: ${{ secrets.DESIGN_SYSTEM_GITHUB_TOKEN }}
+
