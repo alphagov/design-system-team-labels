@@ -292,6 +292,7 @@ module.exports = [
       'community',
       'contribution',
       'process',
+      'security',
       'support'
     ]
   },
