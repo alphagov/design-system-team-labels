@@ -326,6 +326,10 @@ module.exports = [
       {
         name: 'needs research',
         color: '4c2c92'
+      },
+      {
+        name: 'tech debt',
+        color: '5bffd8'
       }
     ]
   }
