@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "description": "Design System Team Labels",
   "scripts": {
-    "build": "node build.js",
+    "build": "node build.mjs",
     "lint": "standard",
-    "preview": "node preview.js",
+    "preview": "node preview.mjs",
     "pretest": "npm run build",
-    "test": "node validate.js"
+    "test": "node validate.mjs"
   },
   "dependencies": {
     "chalk": "^3.0.0",

@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   {
     group: 'Styles',
     color: 'b7deff',

@@ -1,4 +1,4 @@
-const labels = require('./labels.js')
+import labels from './labels.mjs'
 
 const errors = []
 

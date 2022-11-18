@@ -1,6 +1,6 @@
-const chalk = require('chalk')
-const color = require('tinycolor2')
-const labels = require('./labels.js')
+import chalk from 'chalk'
+import color from 'tinycolor2'
+import labels from './labels.mjs'
 
 labels.forEach(label => {
   let labelStyle

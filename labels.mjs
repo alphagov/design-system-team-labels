@@ -1,4 +1,4 @@
-const config = require('./config.js')
+import config from './config.mjs'
 
 // Flatten the labels defined in the config into a single array of objects, as
 // expected by github-label-sync:
@@ -13,7 +13,7 @@ const config = require('./config.js')
 //   ...
 // ]
 
-module.exports = config.flatMap(group => {
+export default config.flatMap(group => {
   return group.labels.map(entry => {
     if (typeof entry === 'string') {
       return {
