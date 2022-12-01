@@ -183,22 +183,6 @@ module.exports = [
       {
         name: 'small story',
         color: '0B0C0C'
-      },
-      {
-        name: 'technical enablement',
-        color: 'DA7F25'
-      },
-      {
-        name: 'refining team processes',
-        color: 'A15E8F'
-      },
-      {
-        name: 'building the community',
-        color: '5EA18E'
-      },
-      {
-        name: 'contribution or major iteration',
-        color: '6B8094'
       }
     ]
   },
