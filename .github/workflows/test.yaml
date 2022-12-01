@@ -22,7 +22,7 @@ jobs:
         run: npm ci
 
       - name: Test
-        run: node validate.js
+        run: npm test
 
       - name: Dry run
         run: ./apply.sh | tee $GITHUB_WORKSPACE/apply.log

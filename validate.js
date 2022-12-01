@@ -1,5 +1,6 @@
 const labels = require('./labels.js')
-let errors = []
+
+const errors = []
 
 labels.forEach(label => {
   if (label.description && label.description.length > 100) {

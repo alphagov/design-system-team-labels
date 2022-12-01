@@ -6,7 +6,6 @@ repos=(
 
 args=(
   --allow-added-labels # Keep any existing labels that are not in the config
-  --labels labels.js
 )
 
 # Unless the APPLY environment variable is provided, just do a dry run and show

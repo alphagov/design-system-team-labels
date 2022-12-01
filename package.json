@@ -2,7 +2,13 @@
   "private": true,
   "name": "design-system-team-labels",
   "version": "1.0.0",
-  "description": "",
+  "description": "Design System Team Labels",
+  "scripts": {
+    "build": "node build.js",
+    "preview": "node preview.js",
+    "pretest": "npm run build",
+    "test": "node validate.js"
+  },
   "dependencies": {
     "chalk": "^3.0.0",
     "github-label-sync": "^1.4.2",
