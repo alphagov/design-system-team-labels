@@ -1,5 +1,5 @@
 const chalk = require('chalk')
-const color = require("tinycolor2")
+const color = require('tinycolor2')
 const labels = require('./labels.js')
 
 labels.forEach(label => {
@@ -14,5 +14,5 @@ labels.forEach(label => {
   console.log(labelStyle(` ${label.name} `), label.description || '')
 })
 
-console.log("\n---\n")
+console.log('\n---\n')
 console.log(`${labels.length} labels`)

@@ -1,4 +1,3 @@
-
 module.exports = [
   {
     group: 'Styles',
@@ -173,7 +172,7 @@ module.exports = [
       {
         name: 'task list',
         description: 'Task list pages'
-      },
+      }
     ]
   },
 
@@ -201,7 +200,7 @@ module.exports = [
       'localisation',
       'performance',
       'tech debt',
-      'tooling',
+      'tooling'
     ]
   },
 
@@ -214,7 +213,7 @@ module.exports = [
         aliases: ['Enhancement: documentation']
       },
       'guidance',
-      'examples',
+      'examples'
     ]
   },
 
