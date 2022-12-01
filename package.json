@@ -5,6 +5,7 @@
   "description": "Design System Team Labels",
   "scripts": {
     "build": "node build.js",
+    "lint": "standard",
     "preview": "node preview.js",
     "pretest": "npm run build",
     "test": "node validate.js"
@@ -14,6 +15,8 @@
     "github-label-sync": "^1.4.2",
     "tinycolor2": "^1.4.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
   "license": "MIT"
 }

@@ -24,6 +24,9 @@ jobs:
       - name: Test
         run: npm test
 
+      - name: Lint
+        run: npm run lint
+
       - name: Dry run
         run: ./apply.sh | tee $GITHUB_WORKSPACE/apply.log
         env:
