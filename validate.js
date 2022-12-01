@@ -1,14 +1,15 @@
-const labels = require('./labels.js')
-let errors = []
+import labels from './labels.js'
+
+const errors = []
 
 labels.forEach(label => {
   if (label.description && label.description.length > 100) {
-    errors.push(`- Description for "${label.name}" exceeds 100 characters`);
+    errors.push(`- Description for "${label.name}" exceeds 100 characters`)
   }
 })
 
 if (errors.length) {
-  console.log("Validation failed:")
-  console.log(errors.join("\n"));
-  process.exit(1);
+  console.log('Validation failed:')
+  console.log(errors.join('\n'))
+  process.exit(1)
 }

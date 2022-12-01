@@ -2,12 +2,22 @@
   "private": true,
   "name": "design-system-team-labels",
   "version": "1.0.0",
-  "description": "",
-  "dependencies": {
-    "chalk": "^3.0.0",
-    "github-label-sync": "^1.4.2",
-    "tinycolor2": "^1.4.1"
+  "description": "Design System Team Labels",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "lint": "standard",
+    "preview": "node preview.js",
+    "pretest": "npm run build",
+    "test": "node validate.js"
   },
-  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "github-label-sync": "^2.2.0",
+    "tinycolor2": "^1.4.2"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
   "license": "MIT"
 }

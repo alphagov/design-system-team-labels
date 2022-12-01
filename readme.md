@@ -6,14 +6,14 @@ It uses [github-label-sync](https://github.com/Financial-Times/github-label-sync
 
 ## Updating labels
 
-Labels are configured in `config.json`.
+Labels are configured in `config.js`.
 
 The groups are only used for organisation, and to avoid having to declare the same colour multiple times.
 
 You can preview the labels by running:
 
 ```
-node preview.js
+npm run preview
 ```
 
 When a pull request is created, you will be able to see a preview of the changes that will be made to each repository as a comment on the PR, or in the GitHub Actions log.
