@@ -1,6 +1,6 @@
 import chalk from 'chalk'
 import color from 'tinycolor2'
-import labels from './labels.mjs'
+import labels from './labels.js'
 
 labels.forEach(label => {
   let labelStyle

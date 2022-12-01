@@ -1,4 +1,4 @@
-import config from './config.mjs'
+import config from './config.js'
 
 // Flatten the labels defined in the config into a single array of objects, as
 // expected by github-label-sync:

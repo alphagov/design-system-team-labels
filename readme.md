@@ -6,7 +6,7 @@ It uses [github-label-sync](https://github.com/Financial-Times/github-label-sync
 
 ## Updating labels
 
-Labels are configured in `config.mjs`.
+Labels are configured in `config.js`.
 
 The groups are only used for organisation, and to avoid having to declare the same colour multiple times.
 

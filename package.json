@@ -3,12 +3,13 @@
   "name": "design-system-team-labels",
   "version": "1.0.0",
   "description": "Design System Team Labels",
+  "type": "module",
   "scripts": {
-    "build": "node build.mjs",
+    "build": "node build.js",
     "lint": "standard",
-    "preview": "node preview.mjs",
+    "preview": "node preview.js",
     "pretest": "npm run build",
-    "test": "node validate.mjs"
+    "test": "node validate.js"
   },
   "dependencies": {
     "chalk": "^5.1.2",

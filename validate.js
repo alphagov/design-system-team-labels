@@ -1,4 +1,4 @@
-import labels from './labels.mjs'
+import labels from './labels.js'
 
 const errors = []
 
