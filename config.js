@@ -228,28 +228,6 @@ export default [
   },
 
   {
-    group: 'Effort',
-    color: 'f3f2f1',
-    labels: [
-      {
-        name: '🕔 days',
-        description: 'A few unknowns, but we roughly know what’s involved.',
-        aliases: ['Effort: days']
-      },
-      {
-        name: '🕔 hours',
-        description: 'A well understood issue which we expect to take less than a day to resolve.',
-        aliases: ['Effort: hours']
-      },
-      {
-        name: '🕔 weeks',
-        description: 'This is complicated and will require a lot of effort from the team.',
-        aliases: ['Effort: weeks']
-      }
-    ]
-  },
-
-  {
     group: 'Audits',
     color: '555555',
     labels: [
