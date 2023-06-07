@@ -307,6 +307,10 @@ export default [
       {
         name: 'tech debt',
         color: '5bffd8'
+      },
+      {
+        name: 'prototype kit',
+        color: 'd53880'
       }
     ]
   }
