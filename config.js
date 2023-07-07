@@ -39,6 +39,7 @@ export default [
       'inset text',
       'label',
       'notification banner',
+      'pagination',
       'panel',
       'phase banner',
       'radios',
