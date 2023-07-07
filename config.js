@@ -30,6 +30,7 @@ export default [
       'details',
       'error message',
       'error summary',
+      'exit this page',
       'fieldset',
       'file upload',
       'footer',
@@ -47,6 +48,7 @@ export default [
       'table',
       'tabs',
       'tag',
+      'task list',
       'text input',
       'textarea',
       'warning text'
