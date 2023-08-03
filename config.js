@@ -275,6 +275,10 @@ export default [
         aliases: ['bug']
       },
       {
+        name: 'main epic',
+        color: '0b0c0c'
+      },
+      {
         name: 'epic',
         color: '0b0c0c'
       },
@@ -310,6 +314,10 @@ export default [
       {
         name: 'tech debt',
         color: '5bffd8'
+      },
+      {
+        name: 'design system day',
+        color: '5319e7'
       },
       {
         name: 'prototype kit',
