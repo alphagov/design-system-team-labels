@@ -180,16 +180,6 @@ export default [
   },
 
   {
-    group: 'Themes',
-    labels: [
-      {
-        name: 'small story',
-        color: '0B0C0C'
-      }
-    ]
-  },
-
-  {
     group: 'Technical',
     color: '5bffd8',
     labels: [
@@ -253,11 +243,13 @@ export default [
     labels: [
       'analytics',
       'assurance',
-      'community',
       'contribution',
+      'comms',
+      'event',
       'process',
-      'security',
-      'support'
+      'research',
+      'research ops',
+      'security'
     ]
   },
 
@@ -275,11 +267,11 @@ export default [
         aliases: ['bug']
       },
       {
-        name: 'main epic',
+        name: 'epic',
         color: '0b0c0c'
       },
       {
-        name: 'epic',
+        name: 'small story',
         color: '0b0c0c'
       },
       {
@@ -303,21 +295,8 @@ export default [
         aliases: ['awaiting-triage']
       },
       {
-        name: 'submitted by user',
-        color: 'b1b4b6',
-        aliases: ['submitted-by-user']
-      },
-      {
-        name: 'needs research',
-        color: '4c2c92'
-      },
-      {
         name: 'tech debt',
         color: '5bffd8'
-      },
-      {
-        name: 'design system day',
-        color: '5319e7'
       },
       {
         name: 'prototype kit',
