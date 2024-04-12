@@ -41,6 +41,7 @@ export default [
       'notification banner',
       'pagination',
       'panel',
+      'password input',
       'phase banner',
       'radios',
       'select',
