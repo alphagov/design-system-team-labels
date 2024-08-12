@@ -234,6 +234,16 @@ export default [
         name: 'audit october 2019',
         description: 'Issues from October 2019 external accessibility audit re-test of May',
         aliases: ['audit: october-2019']
+      },
+      {
+        name: 'audit may 2023',
+        description: 'Issues from May 2023 external accessibility audit against WCAG 2.2 criteria',
+        aliases: ['audit: may-2023']
+      },
+      {
+        name: 'audit july 2024',
+        description: 'Issues from July 2024 external accessibility audit against WCAG 2.2 criteria',
+        aliases: ['audit: july-2024']
       }
     ]
   },
