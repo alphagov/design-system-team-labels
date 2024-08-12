@@ -348,6 +348,11 @@ export default [
       {
         name: 'prototype kit',
         color: 'd53880'
+      },
+      {
+        name: 'DSday',
+        color: 'C2E0C6',
+        description: 'Tasks related to the planning or delivery of DSday events'
       }
     ]
   }
