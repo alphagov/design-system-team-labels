@@ -222,8 +222,44 @@ export default [
   },
 
   {
-    group: 'Audits',
-    color: '555555',
+    group: 'Accessibility',
+    labels: [
+      {
+        name: 'accessibility concern',
+        color: 'D93F0B',
+        description: 'Any bug, feature request or question about the accessibility of a portion of a product',
+        aliases: ['accessibility-concern']
+      },
+      {
+        name: 'accessibility regulations failure',
+        color: 'ffdd00',
+        description: 'Does not meet the Public Sector Accessibility Regulations (WCAG 2.2 level AA)',
+        aliases: ['accessibility-regulations-failure']
+      },
+      {
+        name: 'accessibility statement',
+        color: 'bfd4f2',
+        description: 'These GitHub issues are or have previously been featured in our accessibility statement',
+        aliases: ['accessibility-statement']
+      },
+      {
+        name: 'accessibility strategy activities',
+        color: 'bfd4f2',
+        description: 'Activities covered in the accessibility strategy',
+        aliases: ['accessibility-strategy-activities']
+      },
+      {
+        name: 'WCAG 2.2',
+        color: '3352CC',
+        description: 'All items related to WCAG 2.2 update activities',
+        aliases: ['wcag-2.2']
+      }
+    ]
+  },
+
+  {
+    group: 'Accessibility audits',
+    color: 'd4c5f9',
     labels: [
       {
         name: 'audit may 2019',
