@@ -45,6 +45,7 @@ export default [
       'phase banner',
       'radios',
       'select',
+      'service navigation',
       'skip link',
       'summary list',
       'table',
