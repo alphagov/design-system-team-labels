@@ -228,7 +228,7 @@ export default [
       {
         name: 'accessibility concern',
         color: 'D93F0B',
-        description: 'Any bug, feature request or question about the accessibility of a portion of a product',
+        description: 'Bug, feature request or question about the accessibility of a portion of a product (not a WCAG fail)',
         aliases: ['accessibility-concern']
       },
       {
