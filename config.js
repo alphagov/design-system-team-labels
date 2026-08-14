@@ -34,6 +34,7 @@ export default [
       'fieldset',
       'file upload',
       'footer',
+      'generic header',
       'header',
       'hint',
       'inset text',
